@@ -8,4 +8,4 @@
 + VS code
 + React
 
->* Do not haesitate to check the final results by visiting [This link]()
+>* Do not hesitate to check the final results by visiting [This link]()
