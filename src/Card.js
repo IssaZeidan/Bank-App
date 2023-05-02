@@ -9,4 +9,6 @@ export default function Card({ customerName, accountNumber, accountType }) {
       <p>Account Type: {accountType}</p>
     </div>
   );
+ 
 }
+<Accounts/>

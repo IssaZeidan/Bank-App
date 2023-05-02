@@ -1,7 +1,5 @@
 import { useState, useEffect } from "react";
 import "./css/form.css";
-import Card from "./Card";
-import Accounts from "./Accounts";
 
 export default function MyForm() {
   const [customerName, setCustomerName] = useState("");
@@ -76,6 +74,7 @@ export default function MyForm() {
           <input type="submit" />
         </fieldset>
       </form>
+
       {/* {data.map((item, index) => (
         <Card
           key={index}
