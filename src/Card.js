@@ -1,4 +1,5 @@
 import React from "react";
+import Accounts from "./Accounts";
 
 export default function Card({ customerName, accountNumber, accountType }) {
   return (

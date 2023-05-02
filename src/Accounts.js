@@ -10,7 +10,7 @@ export default function Accounts() {
       setData(data);
     }
   }, []);
-
+ 
   return (
     <>
       {data.map((item, index) => (

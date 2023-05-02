@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import "./css/form.css";
 import Card from "./Card";
+import Accounts from "./Accounts";
 
 export default function MyForm() {
   const [customerName, setCustomerName] = useState("");
@@ -51,7 +52,7 @@ export default function MyForm() {
             <div className="LabelInput">
               <label>Account Number:</label>
               <input
-                type="text"
+                type="number"
                 value={accountNumber}
                 onChange={(e) => setAccountNumber(e.target.value)}
               />
@@ -72,18 +73,17 @@ export default function MyForm() {
               </select>
             </div>
           </div>
-
           <input type="submit" />
         </fieldset>
       </form>
-      {data.map((item, index) => (
+      {/* {data.map((item, index) => (
         <Card
           key={index}
           customerName={item.customerName}
           accountNumber={item.accountNumber}
           accountType={item.accountType}
         />
-      ))}
+      ))} */}
     </>
   );
 }
